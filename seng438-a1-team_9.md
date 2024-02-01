@@ -203,7 +203,7 @@ For exploratory testing, Testing Pair #1 are primarily responsible for assisting
 
 Testing Pair #2: Sandip Mishra and Fardin Aryan
 
-Testing Pair #1 was primarily responsible for exploratory testing. They conducted exploratory testing by breaking the program down into its core functionalities, which included, but were not limited to, withdrawal, deposit, and transfer. Each person tested a certain number of functionalities and recorded the results in Google Docs. A detailed high-level exploratory test plan can be found above.
+Testing Pair #2 was primarily responsible for exploratory testing. They conducted exploratory testing by breaking the program down into its core functionalities, which included, but were not limited to, withdrawal, deposit, and transfer. Each person tested a certain number of functionalities and recorded the results in Google Docs. A detailed high-level exploratory test plan can be found above.
 Testing Pair #2 was also responsible for recording the bugs on JIRA and generating the final bug report.
 For the lab report, we all contribute to writing and proofreading it. We split the work equally, with everyone contributing to the assignment. 
 
