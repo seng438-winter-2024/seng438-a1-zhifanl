@@ -179,12 +179,27 @@ The test results showed a mix of passes and failures, highlighting areas where t
 
 # How the pair testing was managed and team work/effort was divided 
 
-Text…
+Here’s how we conducted pair testing:
+Testing Pair #1: Zhifan and Shanzi
+Testing Pair #1 were responsible for manual scripted testing and regression testing. The assignment instructions listed 40 test cases, so we decided that each person would conduct 20 cases for both testing methods. Initially, we tested version 1.0, with Shanzi Ye handling cases 1 to 20 and Zhifan Li covering cases 21 to 40. Afterwards, we recorded our results in a Google doc. We then repeated this process for version 1.1. Finally, we compared the results to identify bugs in both versions.
+For exploratory testing, Testing Pair #1 are primarily responsible for assisting Testing Pair #2 in identifying additional bugs that exist in both versions. A detailed high-level exploratory test plan can be found above.
+Testing Pair #2: Sandip Mishra and Fardin Aryan
+Testing Pair #1 was primarily responsible for exploratory testing. They conducted exploratory testing by breaking the program down into its core functionalities, which included, but were not limited to, withdrawal, deposit, and transfer. Each person tested a certain number of functionalities and recorded the results in Google Docs. A detailed high-level exploratory test plan can be found above.
+Testing Pair #2 was also responsible for recording the bugs on JIRA and generating the final bug report.
+For the lab report, we all contribute to writing and proofreading it. We split the work equally, with everyone contributing to the assignment. 
+
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
-Text…
+In the beginning, we found it quite challenging to understand the assignment requirements because seng438-a1.md is lengthy and tedious to read. Then we had a group discussion in the lab and went through every detail in the instruction, which helped us understand the objective and the requirements.
+Another difficulty we encountered is the use of Jira. None of us used this software so initially we had no idea how to report the bugs and its details on Jira. However, we were able to overcome this difficulty because we read some tutorials on google and spent some time getting familiar with the software.
+In addition, we thought it was challenging to find the time slot when everyone was available to attend the group meeting. To solve this issue, we all filled out a form on When2meet and finally found the best time for us to meet in person or on discord.
+After finishing this assignment, we understand that communication and team collaboration play an essential role in group projects as it helps us overcome difficulties, share ideas, and finish the assignment more efficiently.
 
 # Comments/feedback on the lab and lab document itself
 
-Text…
+We think this lab assignment is very helpful to give us a general understanding of the testing process as most of us have zero testing experience. After this lab, we know how software testing works and what the key components of testing methods are. We learned various testing methods such as exploratory testing, manual scripted testing, as well as the differences between them. This lab also enhances our critical thinking ability and teaches us how to apply testing methods to improve a software’s functionality. By working as a group, this lab also teaches us how to split the workload and discover the most efficient way for team collaboration.
+
+
+Despite the fact that the lab document is a bit lengthy and hard to read, it provides detailed instructions for us to conduct the testing. It allows us to follow the testing procedures step by step and finish the assignment efficiently. Overall, we believe that this assignment builds a solid foundation for future learning in this course.
+
