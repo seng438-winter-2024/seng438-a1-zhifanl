@@ -76,173 +76,98 @@ Zhifan:
 10.when depositing 10000000.00 dollars, the system crashes. Cannot even insert an envelope.
 
 Test#1: (Card 1)
-
 Login in first card with #1, Password 42
-
 Expected Result: Successful Login
-
 Actual: Successful Login
-
 Status: Pass
-
 Regression Testing: Pass
 
-
 Test#2: (Card 1)
-
 Show balance inquiry for checking account
-
 Expected Result: $100
-
 Actual: $100
-
 Status: Pass
-
 Regression Testing: Pass
 
 Test#3: (Card 1)
-
 Transfer 20$ from chequing to saving
-
 Expected Result: $1020 in saving
-
 Actual: $1019.5
-
 Status: Fail
-
 Regression Result: $1020
-
 Regression Testing: Pass
-
 
 Test#4: (Card 1)
-
 Transfer 0.4$ from chequing to saving
-
 Expected Result: $1000.4 in saving
-
 Actual: $999.9
-
 Status: Fail
-
 Regression Result: $1000.4
-
 Regression Testing: Pass
 
-
 Test #5 : (Card 1)
-
 Check Balance inquiry page
-
 Expected Result: Show checking + Savings + Money Market options
-
 Actual: Shows Checking + Money Market options
-
 Status: Fail
-
 Regression Result: Show checking + Savings + Money Market options
-
 Regression Stat   : Pass
 
 Test #6 : (Card 1)
-
 Transfer $20 from Chequing to money market
-
 Expected Result: $20 into money market
-
 Actual: Invalid to account type
-
 Status: Fail
-
 Regression Result:  Invalid to account type
-
 Regression Stat: Fail
 
-
 Test #7 : (Card 1)
-
 Transfer $20 from Saving to money market
-
 Expected Result: $20 into money market
-
 Actual: Invalid to account type
-
 Status: Fail
-
 Regression Result:  Invalid to account type
-
 Regression Stat   : Fail
 
-
 Test #8 : (Card 1)
-
 Deposit $2000 to chequing
-
 Expected Result: $2100
-
 Actual: TOTAL BAL: $2090.00, AVAILABLE: $100.00
-
 Status: Fail
-
 Regression Result: TOTAL BAL: $2099.90, AVAILABLE: $100.00
-
 Regression Stat   : Fail
 
 Test #9 : (Card 1)
-
 Deposit $2000 to saving
-
 Expected Result: $3000
-
 Actual:TOTAL BAL: $2990.00, AVAILABLE: $1000.00
-
 Status: Fail
-
 Regression Result:TOTAL BAL: $2099.90, AVAILABLE: $100.00
-
 Regression Stat   : Fail
-
 
 Test #10 : (Card 1)
-
 Deposit $100000 to saving
-
 Expected Result: $103000
-
 Actual:TOTAL BAL: $102990.00, AVAILABLE: $1000.00
-
 Status: Fail
 Regression Result:TOTAL BAL: $102990.00, AVAILABLE: $1000.00
-
 Regression Stat   : Fail
 
-
 Test #11 : (Card 1)
-
 Balance Inquiry of Money Market
-
 Expected Result: Money Market’s balance
-
 Actual: Unknown error first, then cannot make inquiry for money market. When selecting money market, it shows the saving account’s balance
-
 Status: Fail
-
 Regression Result: Invalid Account Type
-
 Regression Stat   : Fail
 
 Test #12 : (Card 1)
 
 Deposit 100000000 to chequing
-
 Expected Result: Chequing gets updated, or show error message
-
 Actual: No error message shown, no update
-
 Status: Fail
-
 Regression Result: Same
-
 Regression Stat   : Fail
 
 
