@@ -162,7 +162,6 @@ Regression Result: Invalid Account Type
 Regression Stat   : Fail
 
 Test #12 : (Card 1)
-
 Deposit 100000000 to chequing
 Expected Result: Chequing gets updated, or show error message
 Actual: No error message shown, no update
