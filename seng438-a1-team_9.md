@@ -53,6 +53,11 @@ We also want to test if the system is giving the correct textual prompt to the u
 
 # Comparison of exploratory and manual functional testing
 
+Exploratory and manual functional testing are two completely different testing methods. Manual functional testing can’t be started until a detailed testing plan is made, hence it requires testers to prepare a manual scripted testing plan that contains all the basic functionalities the system needs to meet. Exploratory testing is a more flexible testing method that allows testers to test the system over a broader range. Exploratory testing emphasizes the defects and issues that consumers might encounter in the real world and the testers toi freely explore the system and find the bugs that are not listed in the manual scripted test cases.
+
+Compared to the manual functional testing, exploratory testing allows the programmer to have more freedom to test the system and go beyond the predefined testing cases. In this lab, we found some bugs exist in the system that are not listed in the manual test cases by using exploratory testing. However, we felt that exploratory testing is a bit disorganized because normally we don’t follow a specific logic to test the system. When it comes to a large and complicated system, it’s difficult to cover every aspect thoroughly and conduct comprehensive testing. In contrast, manual functional testing is more efficient and organized. Since all the test cases have been clearly provided, we just need to split the task and test the system based on the testing cases. We have a clear objective and direction where we aim to test.
+
+
 ## Defects found in exploratory testing
 
 Shanzi & Zhifan:
@@ -183,6 +188,7 @@ Here’s how we conducted pair testing:
 Testing Pair #1: Zhifan and Shanzi
 Testing Pair #1 were responsible for manual scripted testing and regression testing. The assignment instructions listed 40 test cases, so we decided that each person would conduct 20 cases for both testing methods. Initially, we tested version 1.0, with Shanzi Ye handling cases 1 to 20 and Zhifan Li covering cases 21 to 40. Afterwards, we recorded our results in a Google doc. We then repeated this process for version 1.1. Finally, we compared the results to identify bugs in both versions.
 For exploratory testing, Testing Pair #1 are primarily responsible for assisting Testing Pair #2 in identifying additional bugs that exist in both versions. A detailed high-level exploratory test plan can be found above.
+
 Testing Pair #2: Sandip Mishra and Fardin Aryan
 Testing Pair #1 was primarily responsible for exploratory testing. They conducted exploratory testing by breaking the program down into its core functionalities, which included, but were not limited to, withdrawal, deposit, and transfer. Each person tested a certain number of functionalities and recorded the results in Google Docs. A detailed high-level exploratory test plan can be found above.
 Testing Pair #2 was also responsible for recording the bugs on JIRA and generating the final bug report.
