@@ -65,23 +65,14 @@ Defects:
 Zhifan:
 
 1.No error message when entering the wrong card number, if a customer enters the wrong card number accidentally, then the PIN will keep getting wrong, which results in the customer’s card getting locked.
-
 2.previous log & output not getting cleared when shutdown or restarting the ATM machine
-
 3.when transferring money >0.5 between linked accounts, 0,5$ is taken from the bank
-
 4.when transferring money <0.5 between linked accounts, the money transferred becomes a negative number, which causes the target account to actually lose money.
-
 5.UI error: “Wood” you like another translation
-
 6.Cannot transfer from money market to chequing or saving
-
 7.Cannot transfer from chequing or saving to money market
-
 8.Cannot make inquiry for Saving account, no such option
-
 9.Cannot make inquiry about the money market. When selecting money market, it shows the saving account’s balance
-
 10.when depositing 10000000.00 dollars, the system crashes. Cannot even insert an envelope.
 
 Test#1: (Card 1)
