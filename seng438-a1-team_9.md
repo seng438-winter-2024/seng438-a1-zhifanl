@@ -6,7 +6,7 @@
 |-----------------|
 | Student 1 Zhifan Li 30089428        |   
 | Student 2 Sandip Mishra              |   
-| Student 3 Shanzi Ye               |   
+| Student 3 Shanzi Ye  30122179             |   
 | Student 4 Fardin Aryan 3016150                |   
 
 
@@ -38,17 +38,221 @@ In this laboratory work, we delve into the realm of software testing, focusing o
 # High-level description of the exploratory testing plan
 
 high-level exploratory test plan:
+
 Testing Pair #1: Zhifan and Shanzi
+
 For executing the testing plan:
+
 We are planning to test most of the features including the edge cases. For the purpose of exploratory testing, we will try to keep these tests as random as possible. 
 We will begin by testing by using the two accounts provided in the README file.
-we want to make sure the power can start up and shut down normally when operators perform it. and also make sure the card can be inserted normally and ejected normally no matter the transcrtion is successfully or any failure happens.
-we want to make sure the account id, pin number are correct and only the correct data can enter the system. We will throw some random inputs to test if these will be validated by the system or not. The incorrect account or pin numbers will cause system to deny the access, after three times of uncessfully attempt to login, the system will lock the card permanently and the user has to contact bank to get it unlocked.
-we want to make sure monetary transfer such as deposits and withdrawals work normally by entering a variety of random values including edge cases to both chequing, saving, and money market. (For example, we will try entering 20, 40, 60, 2000)We will check the balances to see if the result matches with the expected outcome, including canceling the transaction during stage of process. If any bug happens, we will record and try to find root cause, see if it is a common bug for all deposits or withdrawals and we also plan to record the state and steps we performed for us to easily reproduce the bug. 
-we want to make sure the system can do monetary transfer such as transferring to linked account and make an inquiry. 
-During each type of transaction, we will click cancel to ensure this feature correctly cancels the operation. We will be clicking cancel at different times during the transaction to make sure that a user is able to abort at any given moment.
-We then want to make sure the logging feature acts normally, all the actions are recorded and there is no missing records of actions. 
-We also want to test if the system is giving the correct textual prompt to the user, make sure the UI doesn’t give any ambiguity such as incorrect words or numbers. 
+
+1.We want to make sure the power can start up and shut down normally when operators perform it. and also make sure the card can be inserted normally and ejected normally no matter if the transaction is successful or any failure happens.
+
+2.we want to make sure the account id, pin number are correct and only the correct data can enter the system. We will throw some random inputs to test if these will be validated by the system or not. The incorrect account or pin numbers will cause the system to deny the access, after three times of successfully attempting to login, the system will lock the card permanently and the user has to contact the bank to get it unlocked.
+
+3.We want to make sure monetary transfers such as deposits and withdrawals work normally by entering a variety of random values including edge cases to both chequing, saving, and money market. (For example, we will try entering 20, 40, 60, 2000)We will check the balances to see if the result matches with the expected outcome, including canceling the transaction during the stage of the process. If any bug happens, we will record and try to find the root cause, see if it is a common bug for all deposits or withdrawals and we also plan to record the state and steps we performed for us to easily reproduce the bug. 
+
+4.We want to make sure the system can do monetary transfers such as transferring to linked accounts and making an inquiry. 
+
+5.During each type of transaction, we will click cancel to ensure this feature correctly cancels the operation. We will be clicking cancel at different times during the transaction to make sure that a user is able to abort at any given moment.
+
+6.We then want to make sure the logging feature acts normally, all the actions are recorded and there are no missing records of actions. 
+
+7.We also want to test if the system is giving the correct textual prompt to the user, to make sure the UI doesn’t give any ambiguity such as incorrect words or numbers. 
+
+Defects:
+
+Zhifan:
+
+1.No error message when entering the wrong card number, if a customer enters the wrong card number accidentally, then the PIN will keep getting wrong, which results in the customer’s card getting locked.
+
+2.previous log & output not getting cleared when shutdown or restarting the ATM machine
+
+3.when transferring money >0.5 between linked accounts, 0,5$ is taken from the bank
+
+4.when transferring money <0.5 between linked accounts, the money transferred becomes a negative number, which causes the target account to actually lose money.
+
+5.UI error: “Wood” you like another translation
+
+6.Cannot transfer from money market to chequing or saving
+
+7.Cannot transfer from chequing or saving to money market
+
+8.Cannot make inquiry for Saving account, no such option
+
+9.Cannot make inquiry about the money market. When selecting money market, it shows the saving account’s balance
+
+10.when depositing 10000000.00 dollars, the system crashes. Cannot even insert an envelope.
+
+Test#1: (Card 1)
+
+Login in first card with #1, Password 42
+
+Expected Result: Successful Login
+
+Actual: Successful Login
+
+Status: Pass
+
+Regression Testing: Pass
+
+
+Test#2: (Card 1)
+
+Show balance inquiry for checking account
+
+Expected Result: $100
+
+Actual: $100
+
+Status: Pass
+
+Regression Testing: Pass
+
+Test#3: (Card 1)
+
+Transfer 20$ from chequing to saving
+
+Expected Result: $1020 in saving
+
+Actual: $1019.5
+
+Status: Fail
+
+Regression Result: $1020
+
+Regression Testing: Pass
+
+
+Test#4: (Card 1)
+
+Transfer 0.4$ from chequing to saving
+
+Expected Result: $1000.4 in saving
+
+Actual: $999.9
+
+Status: Fail
+
+Regression Result: $1000.4
+
+Regression Testing: Pass
+
+
+Test #5 : (Card 1)
+
+Check Balance inquiry page
+
+Expected Result: Show checking + Savings + Money Market options
+
+Actual: Shows Checking + Money Market options
+
+Status: Fail
+
+Regression Result: Show checking + Savings + Money Market options
+
+Regression Stat   : Pass
+
+Test #6 : (Card 1)
+
+Transfer $20 from Chequing to money market
+
+Expected Result: $20 into money market
+
+Actual: Invalid to account type
+
+Status: Fail
+
+Regression Result:  Invalid to account type
+
+Regression Stat: Fail
+
+
+Test #7 : (Card 1)
+
+Transfer $20 from Saving to money market
+
+Expected Result: $20 into money market
+
+Actual: Invalid to account type
+
+Status: Fail
+
+Regression Result:  Invalid to account type
+
+Regression Stat   : Fail
+
+
+Test #8 : (Card 1)
+
+Deposit $2000 to chequing
+
+Expected Result: $2100
+
+Actual: TOTAL BAL: $2090.00, AVAILABLE: $100.00
+
+Status: Fail
+
+Regression Result: TOTAL BAL: $2099.90, AVAILABLE: $100.00
+
+Regression Stat   : Fail
+
+Test #9 : (Card 1)
+
+Deposit $2000 to saving
+
+Expected Result: $3000
+
+Actual:TOTAL BAL: $2990.00, AVAILABLE: $1000.00
+
+Status: Fail
+
+Regression Result:TOTAL BAL: $2099.90, AVAILABLE: $100.00
+
+Regression Stat   : Fail
+
+
+Test #10 : (Card 1)
+
+Deposit $100000 to saving
+
+Expected Result: $103000
+
+Actual:TOTAL BAL: $102990.00, AVAILABLE: $1000.00
+
+Status: Fail
+Regression Result:TOTAL BAL: $102990.00, AVAILABLE: $1000.00
+
+Regression Stat   : Fail
+
+
+Test #11 : (Card 1)
+
+Balance Inquiry of Money Market
+
+Expected Result: Money Market’s balance
+
+Actual: Unknown error first, then cannot make inquiry for money market. When selecting money market, it shows the saving account’s balance
+
+Status: Fail
+
+Regression Result: Invalid Account Type
+
+Regression Stat   : Fail
+
+Test #12 : (Card 1)
+
+Deposit 100000000 to chequing
+
+Expected Result: Chequing gets updated, or show error message
+
+Actual: No error message shown, no update
+
+Status: Fail
+
+Regression Result: Same
+
+Regression Stat   : Fail
 
 
 # Comparison of exploratory and manual functional testing
@@ -57,115 +261,6 @@ Exploratory and manual functional testing are two completely different testing m
 
 Compared to the manual functional testing, exploratory testing allows the programmer to have more freedom to test the system and go beyond the predefined testing cases. In this lab, we found some bugs exist in the system that are not listed in the manual test cases by using exploratory testing. However, we felt that exploratory testing is a bit disorganized because normally we don’t follow a specific logic to test the system. When it comes to a large and complicated system, it’s difficult to cover every aspect thoroughly and conduct comprehensive testing. In contrast, manual functional testing is more efficient and organized. Since all the test cases have been clearly provided, we just need to split the task and test the system based on the testing cases. We have a clear objective and direction where we aim to test.
 
-
-## Defects found in exploratory testing
-
-Shanzi & Zhifan:
-Test#1: No error message when entering the wrong card number
-Test#2: previous log & output not getting cleared when shutdown or restarting the ATM machine
-Test#3: when transferring money >0.5 between linked accounts, 0,5$ is taken from the bank
-Test#4: when transfer money <0.5 between linked accounts, the money transferred becomes a negative number, which causes the target account to actually lose money.
-Test#5: UI error: “Wood” you like another translation
-Test#6: Cannot transfer from money market to chequing or saving
-Test#7: Cannot transfer from chequing or saving to money market
-Test#8: Cannot make inquiry for Saving account, no such option
-Test#9: Cannot make inquiry for money market. When selecting money market, it shows the saving account’s balance
-Test#10: when depositing 10000000.00 dollars, the system crashes. Cannot even insert an envelope.
-
-Test#1: (Card 1)
-Login in first card with #1, Password 42
-Expected Result: Successful Login
-Actual: Successful Login
-Status: Pass
-Regression Testing: Pass
-
-Test#2: (Card 1)
-Show balance inquiry for checking account
-Expected Result: $100
-Actual: $100
-Status: Pass
-Regression Testing: Pass
-Test#3: (Card 1)
-Transfer 20$ from cheqing to saving
-Expected Result: $1020 in saving
-Actual: $1019.5
-Status: Fail
-Regression Result: $1020
-Regression Testing: Pass
-
-Test#4: (Card 1)
-Transfer 0.4$ from cheqing to saving
-Expected Result: $1000.4 in saving
-Actual: $999.9
-Status: Fail
-Regression Result: $1000.4
-Regression Testing: Pass
-
-Test #5 : (Card 1)
-Check Balance inquiry page
-Expected Result: Show checking + Savings + Money Market options
-Actual: Shows Checking + Money Market options
-Status: Fail
-Regression Result: Show checking + Savings + Money Market options
-Regression Stat   : Pass
-Test #6 : (Card 1)
-Transfer $20 from Chequing to money market
-Expected Result: $20 into money market
-Actual: Invalid to account type
-Status: Fail
-Regression Result:  Invalid to account type
-Regression Stat: Fail
-
-Test #7 : (Card 1)
-Transfer $20 from Saving to money market
-Expected Result: $20 into money market
-Actual: Invalid to account type
-Status: Fail
-Regression Result:  Invalid to account type
-Regression Stat   : Fail
-
-Test #8 : (Card 1)
-Deposit $2000 to chequing
-Expected Result: $2100
-Actual: TOTAL BAL: $2090.00, AVAILABLE: $100.00
-Status: Fail
-Regression Result: TOTAL BAL: $2099.90, AVAILABLE: $100.00
-Regression Stat   : Fail
-Test #9 : (Card 1)
-Deposit $2000 to saving
-Expected Result: $3000
-Actual:TOTAL BAL: $2990.00, AVAILABLE: $1000.00
-Status: Fail
-Regression Result:TOTAL BAL: $2099.90, AVAILABLE: $100.00
-Regression Stat   : Fail
-
-Test #10 : (Card 1)
-Deposit $100000 to saving
-Expected Result: $103000
-Actual:TOTAL BAL: $102990.00, AVAILABLE: $1000.00
-Status: Fail
-Regression Result:TOTAL BAL: $102990.00, AVAILABLE: $1000.00
-Regression Stat   : Fail
-
-Test #11 : (Card 1)
-Balance Inquiry of Money Market
-Expected Result: Money Market’s blance
-Actual: Unknown error first, then cannot make inquiry for money market. When selecting money market, it shows the saving account’s balance
-Status: Fail
-Regression Result: Invalid Account Type
-Regression Stat   : Fail
-Test #12 : (Card 1)
-Deposit 100000000 to chequing
-Expected Result: Chequing gets updated, or show error message
-Actual: No error message shown, no update
-Status: Fail
-Regression Result: Same
-Regression Stat   : Fail
-
-## Defects found in Manual Scripted testing:
-
--   Note that you need to submit a report generated by your defect tracking
-    system, containing all defects recorded in the system.
 
 # Notes and discussion of the peer reviews of defect reports
 
@@ -185,11 +280,14 @@ The test results showed a mix of passes and failures, highlighting areas where t
 # How the pair testing was managed and team work/effort was divided 
 
 Here’s how we conducted pair testing:
+
 Testing Pair #1: Zhifan and Shanzi
+
 Testing Pair #1 were responsible for manual scripted testing and regression testing. The assignment instructions listed 40 test cases, so we decided that each person would conduct 20 cases for both testing methods. Initially, we tested version 1.0, with Shanzi Ye handling cases 1 to 20 and Zhifan Li covering cases 21 to 40. Afterwards, we recorded our results in a Google doc. We then repeated this process for version 1.1. Finally, we compared the results to identify bugs in both versions.
 For exploratory testing, Testing Pair #1 are primarily responsible for assisting Testing Pair #2 in identifying additional bugs that exist in both versions. A detailed high-level exploratory test plan can be found above.
 
 Testing Pair #2: Sandip Mishra and Fardin Aryan
+
 Testing Pair #1 was primarily responsible for exploratory testing. They conducted exploratory testing by breaking the program down into its core functionalities, which included, but were not limited to, withdrawal, deposit, and transfer. Each person tested a certain number of functionalities and recorded the results in Google Docs. A detailed high-level exploratory test plan can be found above.
 Testing Pair #2 was also responsible for recording the bugs on JIRA and generating the final bug report.
 For the lab report, we all contribute to writing and proofreading it. We split the work equally, with everyone contributing to the assignment. 
