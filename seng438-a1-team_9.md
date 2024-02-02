@@ -42,7 +42,7 @@ In this laboratory work, we delve into the realm of software testing, focusing o
 
 high-level exploratory test plan:
 
-# Zhifan & Shanzi: (Testing Pair #1):
+## Zhifan & Shanzi: (Testing Pair #1):
 
 For executing the testing plan:
 
@@ -173,7 +173,7 @@ Regression Result: Same
 Regression Stat   : Fail
 
 
-# Sandip Mishra & Fardin Aryan: (Testing Pair #2):
+## Sandip Mishra & Fardin Aryan: (Testing Pair #2):
 
 Our main approach to this exploratory testing phase consists of breaking this program down into its innate functionalities. These include:
 
@@ -233,7 +233,6 @@ Our main approach to this exploratory testing phase consists of breaking this pr
   - Show Receipt
   - Prompt Transaction
 
-## Take receipt
 
 Test#1: (Card 2)
 Login in card with #1, Password 1234
