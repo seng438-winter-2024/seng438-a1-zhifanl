@@ -235,6 +235,86 @@ Our main approach to this exploratory testing phase consists of breaking this pr
 
 ## Take receipt
 
+Test#1: (Card 2)
+Login in card with #1, Password 1234
+Expected Result: Successful Login
+Actual: Successful Login
+Status: Pass
+Regression Testing: Pass
+
+
+Test#2: (Card 2)
+Show balance inquiry for checking account
+Expected Result: $100
+Actual: $100
+Status: Pass
+Regression Testing: Pass
+Test#3: (Card 2)
+Transfer 20$ from Checking to Money Market
+Expected Result: $5020 in Money Mart
+Actual: $5019.5
+Status: Fail
+Regression Result: $5020
+Regression Testing: Pass
+
+
+Test#4: (Card 2)
+Transfer 0.88$ from Money Market to Checking
+Expected Result: 81.76 $ transferred 
+Actual: $ 81.26
+Status: Fail
+Regression Result: 81.76$
+Regression Testing: Pass
+
+
+Test #5 : (Card 2)
+Balance Inquiry of Money Market account
+Expected Result: Shows current balance of Money Market account
+Actual: Outputs “Invalid Account type”
+Status: Fail
+Regression Result: Shows current balance of Money Market account
+Regression Stat   : Pass
+Test #6 : (Card 2)
+Transfer $20 from money market to checking
+Expected Result: Transfer occurs from money market to checking 
+Actual: Receipt prints that Transfer occurs from checking to money market 
+Status: Fail
+Regression Result:  Receipt prints that Transfer occurs from checking to money market
+Regression Stat: Fail
+
+
+Test #7 : (Card 2)
+Withdraw $40 from checking
+Expected Result: $60 remaining on checking
+Actual: $40 remaining on checking
+Status: Fail
+Regression Result:  $60 remaining on checking
+Regression Stat   : Pass
+
+
+Test #8 : (Card 2)
+Withdraw $100 from Money Market
+Expected Result: Total Balance- $4900
+Actual: “Invalid Account type”
+Status: Fail
+Regression Result: Total Balance-$4900
+Regression Stat   : Pass
+Test #9 : (Card 2)
+Deposit $800 to Money Market
+Expected Result: Total Balance- $5800
+Actual:Total Balance- $5790
+Status: Fail
+Regression Result:Total Balance- $5799.90
+Regression Stat   : Fail
+
+
+Test #10 : (Card 2)
+Deposit $350 to Checking
+Expected Result: Total balance- $ 450
+Actual: Total balance- $440
+Status: Fail
+Regression Result:Total balance- $449.90
+Regression Stat   : Fail
 
 
 
