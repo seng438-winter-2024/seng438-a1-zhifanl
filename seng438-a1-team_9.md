@@ -173,6 +173,31 @@ Regression Result: Same
 Regression Stat   : Fail
 
 
+# Sandip Mishra & Fardin Aryan: (Testing Pair #2):
+
+Our main approach to this exploratory testing phase consists of breaking this program down into its innate functionalities. These include:
+
+## Withdrawing
+### Checking
+- Amount of Cash (20-200)
+  - Show Selected Amount
+  - Show Receipt
+  - Prompt Transaction
+
+### Savings (No saving Account for Card 2)
+- Amount of Cash (20-200)
+  - Show Selected Amount
+  - Show Receipt
+  - Prompt Transaction
+
+### Money Market (No Money market for card 1)
+- Amount of Cash (20-200)
+  - Show Selected Amount
+  - Show Receipt
+  - Prompt Transaction
+
+
+
 # Comparison of exploratory and manual functional testing
 
 Exploratory and manual functional testing are two completely different testing methods. Manual functional testing can’t be started until a detailed testing plan is made, hence it requires testers to prepare a manual scripted testing plan that contains all the basic functionalities the system needs to meet. Exploratory testing is a more flexible testing method that allows testers to test the system over a broader range. Exploratory testing emphasizes the defects and issues that consumers might encounter in the real world and the testers toi freely explore the system and find the bugs that are not listed in the manual scripted test cases.
