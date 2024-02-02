@@ -1,0 +1,4616 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://seng438-group9.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-23]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-23">[EXPLR-14] Incorrect Balance After $350 Deposit into Checking with Card #2</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8"
+                id="word_reporter_712020:3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8">
+                    Ye Shanzi
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10022-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10022-value" class="value" bgcolor="#ffffff" width="80%">      0|i0004v:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>Depositing $350 into the Checking account should result in a total balance of $450.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>After the deposit, the total balance displayed was $440, not the expected $450.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>ATM is operational.</li>
+	<li>Card #2 is inserted.</li>
+	<li>The Checking account has an initial balance before the deposit.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The displayed balance after the deposit is incorrect, showing $440 instead of the expected $450.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status</b>: Fail</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-22]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-22">[EXPLR-13] Incorrect Balance After $800 Deposit into Money Market with Card #2</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="60ff1c43e6e6f800718bbedd"
+                id="word_reporter_60ff1c43e6e6f800718bbedd"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=60ff1c43e6e6f800718bbedd">
+                    Zhifan Li
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10021-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10021-value" class="value" bgcolor="#ffffff" width="80%">      0|i0004n:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>Depositing $800 into the Money Market account should result in a total balance of $5800.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>After the deposit, the total balance displayed was $5790, not the expected $5800.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>ATM is operational.</li>
+	<li>Card #2 is inserted.</li>
+	<li>The Money Market account has an initial balance before the deposit.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The displayed balance after the deposit is incorrect, showing $5790 instead of the expected $5800.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status</b>: Fail</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-21]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-21">[EXPLR-12] Withdrawal Error from Money Market Account with Card #2</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e870b613-b7b7-4002-aa66-89fc1113731b"
+                id="word_reporter_712020:e870b613-b7b7-4002-aa66-89fc1113731b"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae870b613-b7b7-4002-aa66-89fc1113731b">
+                    Fardin Aryan
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10020-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10020-value" class="value" bgcolor="#ffffff" width="80%">      0|i0004f:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>Successfully withdraw $100 from the Money Market account, resulting in a total balance of $4900.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>Attempting the withdrawal resulted in an error message: “Invalid Account type”.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>ATM is operational.</li>
+	<li>Card #2 is inserted.</li>
+	<li>The Money Market account has a sufficient balance for withdrawal.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The system displayed an “Invalid Account type” error when attempting to withdraw from the Money Market account.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status</b>: Pass</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-20]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-20">[EXPLR-11] Incorrect Account Balance After $40 Withdrawal from Checking with Card #2</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8"
+                id="word_reporter_712020:3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8">
+                    Ye Shanzi
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10019-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10019-value" class="value" bgcolor="#ffffff" width="80%">      0|i00047:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>After withdrawing $40 from the Checking account, the remaining balance should be $60.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>Post-withdrawal, the Checking account showed a remaining balance of $40, instead of the expected $60.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>ATM is operational.</li>
+	<li>Card #2 is inserted.</li>
+	<li>Initial balance in the Checking account is sufficient for withdrawal.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The displayed balance after withdrawal was incorrect, showing $40 remaining instead of the expected $60.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status</b>: Pass</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-19]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-19">[EXPLR-10] Incorrect Account Transfer Direction Indicated on Receipt with Card #2</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="60ff1c43e6e6f800718bbedd"
+                id="word_reporter_60ff1c43e6e6f800718bbedd"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=60ff1c43e6e6f800718bbedd">
+                    Zhifan Li
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10018-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10018-value" class="value" bgcolor="#ffffff" width="80%">      0|i0003z:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>Successfully transfer $20 from the Money Market account to the Checking account.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>The receipt incorrectly indicated that the transfer occurred from Checking to Money Market, rather than from Money Market to Checking.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>ATM is operational.</li>
+	<li>Card #2 is ready for use.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The receipt provided incorrect information about the direction of the transfer.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status</b>: Fail</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-18]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-18">[EXPLR-9] Error in Money Market Account Balance Inquiry with Card #2</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e870b613-b7b7-4002-aa66-89fc1113731b"
+                id="word_reporter_712020:e870b613-b7b7-4002-aa66-89fc1113731b"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae870b613-b7b7-4002-aa66-89fc1113731b">
+                    Fardin Aryan
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10017-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10017-value" class="value" bgcolor="#ffffff" width="80%">      0|i0003r:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>The ATM should display the current balance of the Money Market account upon inquiry.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>Received an error message stating “Invalid Account type” when attempting to check the balance of the Money Market account.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>ATM is operational.</li>
+	<li>Card #2 is inserted.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The system failed to display the Money Market account balance, showing an “Invalid Account type” error instead.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status</b>: PASS</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-17]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-17">[EXPLR-8] Incorrect Transfer Amount from Money Market to Checking with Card #2</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e870b613-b7b7-4002-aa66-89fc1113731b"
+                id="word_reporter_712020:e870b613-b7b7-4002-aa66-89fc1113731b"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae870b613-b7b7-4002-aa66-89fc1113731b">
+                    Fardin Aryan
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10016-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10016-value" class="value" bgcolor="#ffffff" width="80%">      0|i0003j:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>Successfully transfer $0.88 from the Money Market account to the Checking account, resulting in a total transfer of $81.76.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>The amount transferred was $81.26 instead of the expected $81.76.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>ATM is operational.</li>
+	<li>Card #2 is ready for use.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The transferred amount was incorrect, showing $81.26 instead of the expected $81.76.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status</b>: Pass</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-16]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-16">[EXPLR-7] No Response on Attempting $100,000,000 Deposit into Chequing with Card #1</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e870b613-b7b7-4002-aa66-89fc1113731b"
+                id="word_reporter_712020:e870b613-b7b7-4002-aa66-89fc1113731b"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae870b613-b7b7-4002-aa66-89fc1113731b">
+                    Fardin Aryan
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10015-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10015-value" class="value" bgcolor="#ffffff" width="80%">      0|i0003b:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>Attempting to deposit $100,000,000 into the Chequing account should either update the account balance or display an error message.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>No error message was shown, and the account balance was not updated when attempting to deposit $100,000,000.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>ATM is operational.</li>
+	<li>Card #1 is inserted.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The system did not respond appropriately to the deposit attempt; there was no error message and no update to the account balance.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status</b>: Fail</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-15]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-15">[EXPLR-6] Errors and Incorrect Display in Money Market Balance Inquiry with Card #1</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="70121:3424725f-a273-45d9-897c-8e30afaf5dcc"
+                id="word_reporter_70121:3424725f-a273-45d9-897c-8e30afaf5dcc"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3A3424725f-a273-45d9-897c-8e30afaf5dcc">
+                    Sandip
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10014-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10014-value" class="value" bgcolor="#ffffff" width="80%">      0|i00033:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>The ATM should display the correct balance of the Money Market account upon inquiry.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>Initially, an "Unknown error" occurred, followed by a message "cannot make inquiry for money market". When selecting the Money Market option, it showed the Savings account's balance instead.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>ATM is operational.</li>
+	<li>Card #1 is inserted.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The ATM failed to display the Money Market account balance correctly, showing various errors and incorrect account information.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status</b>: Fail</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-14]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-14">[EXPLR-5] Inaccurate Balance After Depositing $100000 into Savings with Card #1</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="60ff1c43e6e6f800718bbedd"
+                id="word_reporter_60ff1c43e6e6f800718bbedd"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=60ff1c43e6e6f800718bbedd">
+                    Zhifan Li
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10013-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10013-value" class="value" bgcolor="#ffffff" width="80%">      0|i0002v:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>Depositing $100000 into the Savings account should result in a total balance of $103000.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>After the deposit, the ATM displayed: TOTAL BAL: $102990.00, AVAILABLE: $1000.00.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>ATM is operational.</li>
+	<li>Card #1 is inserted.</li>
+	<li>Initial balance in the Savings account is $3000.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The balance displayed after the deposit is incorrect, showing TOTAL BAL: $102990.00 instead of the expected $103000.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status</b>: Fail</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-13]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-13">[EXPLR-4] Discrepancy in Savings Balance after $2000 Deposit with Card #1</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8"
+                id="word_reporter_712020:3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8">
+                    Ye Shanzi
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10012-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10012-value" class="value" bgcolor="#ffffff" width="80%">      0|i0002n:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h1><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h1>
+
+<ul>
+	<li>After depositing $2000 into the Savings account, the total balance should be $3000.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>Post-deposit, the ATM displayed: TOTAL BAL: $2990.00, AVAILABLE: $1000.00.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>ATM is operational.</li>
+	<li>Card #1 is inserted.</li>
+	<li>Initial balance in the Savings account is $1000.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The displayed balance after deposit is incorrect, showing TOTAL BAL: $2990.00, not the expected $3000.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status</b>: Fail</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-12]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-12">[EXPLR-3] Incorrect Balance Display after Depositing $2000 into Chequing with Card #1</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="60ff1c43e6e6f800718bbedd"
+                id="word_reporter_60ff1c43e6e6f800718bbedd"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=60ff1c43e6e6f800718bbedd">
+                    Zhifan Li
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10011-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10011-value" class="value" bgcolor="#ffffff" width="80%">      0|i0002f:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h1><a name="Test%238%3AIncorrectBalanceDisplayafterDepositing%242000intoChequingwithCard%231"></a>Test #8: Incorrect Balance Display after Depositing $2000 into Chequing with Card #1</h1>
+
+<h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>After depositing $2000, the total balance in the Chequing account should show $2100.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>After the deposit, the ATM displayed: TOTAL BAL: $2090.00, AVAILABLE: $100.00.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>ATM is operational.</li>
+	<li>Card #1 is inserted.</li>
+	<li>Initial Chequing account balance is $100.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The balance displayed after deposit was incorrect, showing TOTAL BAL: $2090.00 instead of $2100.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status</b>: Fail</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-11]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-11">[EXPLR-2] Failure in Transferring $20 from Chequing to Money Market with Card #1</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="70121:3424725f-a273-45d9-897c-8e30afaf5dcc"
+                id="word_reporter_70121:3424725f-a273-45d9-897c-8e30afaf5dcc"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3A3424725f-a273-45d9-897c-8e30afaf5dcc">
+                    Sandip
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10010-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10010-value" class="value" bgcolor="#ffffff" width="80%">      0|i00027:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>Successfully transfer $20 from the Chequing account to the Money Market account.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>Transfer failed with an error message: "Invalid to account type".</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>ATM is operational.</li>
+	<li>Card #1 is inserted.</li>
+	<li>Sufficient funds are available in the Chequing account.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - Unable to transfer $20 from Chequing to Money Market; encountered an "Invalid to account type" error.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status</b>: Fail</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-10]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-10">[EXPLR-1] Failure in Displaying All Account Options on Balance Inquiry with Card #1</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="70121:3424725f-a273-45d9-897c-8e30afaf5dcc"
+                id="word_reporter_70121:3424725f-a273-45d9-897c-8e30afaf5dcc"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3A3424725f-a273-45d9-897c-8e30afaf5dcc">
+                    Sandip
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10009-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10009-value" class="value" bgcolor="#ffffff" width="80%">      0|i0001z:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>The Balance Inquiry page should display options for Checking, Savings, and Money Market accounts.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>The Balance Inquiry page displayed only Checking and Money Market account options. The Savings account option was missing.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>ATM is operational.</li>
+	<li>Card #1 is ready for use.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The Balance Inquiry page failed to display the Savings account option, showing only Checking and Money Market options.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status:</b> Pass</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-9]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-9">[MANUAL-40] ATM Issue with Accepting Correct PIN on Third Attempt</a>
+            <span class="subText">
+               Created: 01/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8"
+                id="word_reporter_712020:3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8">
+                    Ye Shanzi
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10008-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10008-value" class="value" bgcolor="#ffffff" width="80%">      0|i0001r:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>When a user enters an incorrect PIN twice, the system should prompt them to re-enter the PIN each time.</li>
+	<li>Upon entering the correct PIN on the third attempt, the system should accept it and allow the original transaction to proceed successfully.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>The user is prompted to re-enter the PIN after two initial incorrect entries.</li>
+	<li>After entering the incorrect PIN the first and second times, and then the correct PIN on the third try, the expected outcome is not clear.</li>
+	<li>The system's response following the correct PIN entry on the third attempt is ambiguous.</li>
+	<li>It's unclear whether the system accepts the correct PIN on the third attempt, or if further complications occur, such as additional prompts, system lockout, or errors.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>Ambiguous</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - Due to the ambiguous system behavior after the correct PIN is entered on the third attempt, it's uncertain if the original transaction completes successfully as intended.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status:</b> FAIL</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-8]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-8">[MANUAL-39] Issue with Handling Correct PIN Re-entry on Second Attempt</a>
+            <span class="subText">
+               Created: 01/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="70121:3424725f-a273-45d9-897c-8e30afaf5dcc"
+                id="word_reporter_70121:3424725f-a273-45d9-897c-8e30afaf5dcc"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3A3424725f-a273-45d9-897c-8e30afaf5dcc">
+                    Sandip
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10007-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10007-value" class="value" bgcolor="#ffffff" width="80%">      0|i0001j:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>When a user first enters an incorrect PIN, the system should prompt them to re-enter the PIN.</li>
+	<li>Upon entering the correct PIN on the second attempt, the system should accept it and allow the original transaction to complete successfully.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>The user is prompted to re-enter the PIN after an initial incorrect entry.</li>
+	<li>After entering the incorrect PIN the first time and the correct PIN on the second try, the expected behavior is not observed.</li>
+	<li>The system's response to the correct PIN entry on the second attempt is not described, leading to ambiguity.</li>
+	<li>It's unclear whether the system accepts the correct PIN on the second attempt or if there are further issues, such as additional prompts or system errors.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>Ambiguous</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - Due to ambiguous behavior following the correct re-entry of the PIN on the second attempt, it's unclear if the original transaction completes successfully as expected.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status:</b> FAIL</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-7]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-7">[MANUAL-37] ATM Incorrectly Prompts for PIN Re-entry After Correct PIN Entry</a>
+            <span class="subText">
+               Created: 01/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="60ff1c43e6e6f800718bbedd"
+                id="word_reporter_60ff1c43e6e6f800718bbedd"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=60ff1c43e6e6f800718bbedd">
+                    Zhifan Li
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10006-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10006-value" class="value" bgcolor="#ffffff" width="80%">      0|i0001b:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>After the initial incorrect entry of a PIN, the system should accept the correct re-entry of the PIN.</li>
+	<li>Upon entering the correct PIN after one incorrect attempt, the original transaction should complete successfully without additional prompts.</li>
+	<li>The user should be directed to the system's main menu after correctly re-entering the PIN.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>The system prompts for the PIN after the card is entered.</li>
+	<li>After an incorrect PIN ("12") is entered, the system prompts to re-enter the PIN.</li>
+	<li>Upon correctly re-entering the PIN ("1234"), the system incorrectly asks for the PIN a second time.</li>
+	<li>This additional prompt for the PIN should not occur; the user should be taken directly to the main menu.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>The system is on.</li>
+	<li>A readable card (Card 2) is entered into the system.</li>
+	<li>An incorrect PIN is entered, followed by the correct PIN on the subsequent attempt.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The system incorrectly prompts the user to enter the PIN again after the correct PIN is entered on the second attempt, instead of proceeding to the main menu.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status:</b> FAIL</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-6]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-6">[MANUAL-36] ATM Fails to Prompt for PIN Re-entry After Incorrect PIN Entry</a>
+            <span class="subText">
+               Created: 01/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="70121:3424725f-a273-45d9-897c-8e30afaf5dcc"
+                id="word_reporter_70121:3424725f-a273-45d9-897c-8e30afaf5dcc"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3A3424725f-a273-45d9-897c-8e30afaf5dcc">
+                    Sandip
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10005-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10005-value" class="value" bgcolor="#ffffff" width="80%">      0|i00013:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>When a customer enters an incorrect PIN, the system should prompt them to re-enter their PIN.</li>
+	<li>After re-entering the correct PIN, the customer should be able to attempt an inquiry transaction on their checking account.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>When an incorrect PIN is entered, the customer cannot proceed to any transaction.</li>
+	<li>The system does not prompt for re-entering the PIN, leaving the user stuck at the PIN entry state.</li>
+	<li>As a result, the customer cannot even attempt an inquiry transaction on their checking account.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>The system is asking for the entry of the PIN.</li>
+	<li>The user enters an incorrect PIN.</li>
+	<li>The user attempts an inquiry transaction on their checking account.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - Due to an incorrect PIN entry, the system fails to offer an option to re-enter the PIN and blocks further transaction attempts, which is not the expected behavior.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status:</b> FAIL</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-5]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-5">[MANUAL-34] Incorrect Card Number in ATM Inquiry Receipt</a>
+            <span class="subText">
+               Created: 01/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="70121:3424725f-a273-45d9-897c-8e30afaf5dcc"
+                id="word_reporter_70121:3424725f-a273-45d9-897c-8e30afaf5dcc"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3A3424725f-a273-45d9-897c-8e30afaf5dcc">
+                    Sandip
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10004-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10004-value" class="value" bgcolor="#ffffff" width="80%">      0|i0000v:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>The system performs a legitimate inquiry transaction properly.</li>
+	<li>When choosing a checking account, the system prints a correct receipt showing the correct balance.</li>
+	<li>The system records the transaction correctly in the log, including both the message to the bank and the approval received.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<h3><a name="Issue%3AIncorrectCardNumberonReceipt"></a>Issue: Incorrect Card Number on Receipt</h3>
+
+<ul>
+	<li><b>First Instance:</b>
+	<ul>
+		<li>Receipt Details:
+		<ul>
+			<li>Date: Wed Jan 24 17:04:15 MST 2024</li>
+			<li>Location: First National Bank of Podunk, ATM #42 Gordon College</li>
+			<li>Transaction: CARD 3 TRANS #1, INQUIRY FROM: CHKG</li>
+			<li>Balances: TOTAL BAL: $100.00, AVAILABLE: $100.00</li>
+		</ul>
+		</li>
+		<li>Issue: Receipt shows incorrect card number (3 instead of 2).</li>
+		<li>Log correctly shows: "INQUIRY CARD# 2 TRANS# 1 FROM 0 NO TO NO AMOUNT", Response: "SUCCESS".</li>
+	</ul>
+	</li>
+	<li><b>Second Instance:</b>
+	<ul>
+		<li>Receipt Details:
+		<ul>
+			<li>Date: Mon Jan 29 11:58:45 MST 2024</li>
+			<li>Location: First National Bank of Podunk, ATM #42 Gordon College</li>
+			<li>Transaction: CARD 3 TRANS #6, INQUIRY FROM: CHKG</li>
+			<li>Balances: TOTAL BAL: $100.00, AVAILABLE: $100.00</li>
+		</ul>
+		</li>
+		<li>Issue: Receipt shows incorrect card number (3 instead of 2) again.</li>
+		<li>Log correctly shows: "INQUIRY CARD# 2 TRANS# 1 FROM 0 NO TO NO AMOUNT", Response: "SUCCESS".</li>
+	</ul>
+	</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>The system is displaying the menu of account types.</li>
+	<li>User chooses the checking account.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - Receipts from inquiry transactions show incorrect card numbers, despite correct information in the system log.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status:</b> FAIL</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-4]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-4">[MANUAL-29] Transfer Feature Issues in ATM</a>
+            <span class="subText">
+               Created: 01/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="60ff1c43e6e6f800718bbedd"
+                id="word_reporter_60ff1c43e6e6f800718bbedd"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=60ff1c43e6e6f800718bbedd">
+                    Zhifan Li
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10003-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10003-value" class="value" bgcolor="#ffffff" width="80%">      0|i0000n:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>Successful transfer of funds between accounts using the correct card number.</li>
+	<li>Accurate and consistent documentation of card numbers and transaction details in both the log and the receipt.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<h3><a name="Issue1%3ATransferFailure"></a>Issue 1: Transfer Failure</h3>
+
+<ul>
+	<li><b>Action:</b> Attempted to transfer $20 from checking to money market account, then from checking to savings account.</li>
+	<li><b>Result:</b>
+	<ul>
+		<li>Message displayed: "TRANSFER CARD# 2 TRANS# 3 FROM 0 TO 1 $19.50"</li>
+		<li>System Response: "FAILURE Invalid to account type"</li>
+		<li>Unable to transfer from checking to savings.</li>
+	</ul>
+	</li>
+</ul>
+
+
+<h3><a name="Issue2%3AInconsistencyinCardNumber"></a>Issue 2: Inconsistency in Card Number</h3>
+
+<ul>
+	<li><b>Action:</b> Reviewing transaction log and receipt.</li>
+	<li><b>Result:</b>
+	<ul>
+		<li>Log entry: "TRANSFER CARD# 2 TRANS# 2 FROM 0 TO 2 $19.50", marked as "SUCCESS".</li>
+		<li>Receipt Details:
+		<ul>
+			<li>Date: Wed Jan 24 17:07:34 MST 2024</li>
+			<li>Location: First National Bank of Podunk, ATM #42 Gordon College</li>
+			<li>Receipt indicates "CARD 3 TRANS #2" for a transfer from MMKT to CHKG, amount $19.50, total and available balance $5019.50.</li>
+		</ul>
+		</li>
+		<li>Issue: Receipt shows Card 3 instead of the correct Card 2.</li>
+	</ul>
+	</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>Machine is turned on.</li>
+	<li>Insert 10 bills of $20 each ($200 total).</li>
+	<li>Enter card number 2 and pin 1234.</li>
+	<li>Select transfer option (option 3) from the menu.</li>
+	<li>Checking account balance: $100.00; Savings account balance: $1,000.00.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - Transfer feature issues including failure to transfer between specified accounts and inconsistency in card number documentation.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status:</b> FAIL</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-3]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-3">[MANUAL-22] ATM Incorrect Balance After Deposit</a>
+            <span class="subText">
+               Created: 01/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e870b613-b7b7-4002-aa66-89fc1113731b"
+                id="word_reporter_712020:e870b613-b7b7-4002-aa66-89fc1113731b"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae870b613-b7b7-4002-aa66-89fc1113731b">
+                    Fardin Aryan
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10002-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10002-value" class="value" bgcolor="#ffffff" width="80%">      0|i0000f:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ol>
+	<li>Initial account balance is $100.</li>
+	<li>Deposit $20 into the ATM.</li>
+	<li>After deposit, the total account balance should be updated to $120.</li>
+</ol>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ol>
+	<li>Initial account balance shown as $100.</li>
+	<li>User deposits $20.</li>
+	<li>The ATM displays and prints a receipt showing:
+	<ul>
+		<li>Amount Deposited: $20.00</li>
+		<li>Total Balance: $110.00</li>
+		<li>Available Balance: $100.00</li>
+	</ul>
+	</li>
+	<li>This is incorrect as the expected total balance after deposit should be $120.00.</li>
+</ol>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>The ATM is turned on and 10 * $20 bills are inserted.</li>
+	<li>Initial balance is $100, confirmed by a transaction inquiry:
+	<ul>
+		<li>Date and Time: Tue Jan 23 23:30:24 MST 2024</li>
+		<li>Location: First National Bank of Podunk, ATM #42 Gordon College</li>
+		<li>Transaction: CARD 3 TRANS #1, INQUIRY FROM: CHKG</li>
+		<li>Displayed Balances: TOTAL BAL: $100.00, AVAILABLE: $100.00</li>
+	</ul>
+	</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The ATM did not correctly update the total balance after depositing $20, showing $110 instead of the expected $120.</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status:</b> PASSED</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SG-2]&nbsp;<a href="https://seng438-group9.atlassian.net/browse/SG-2">[MANUAL-14] ATM System dispensing incorrect values</a>
+            <span class="subText">
+               Created: 01/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://seng438-group9.atlassian.net/secure/BrowseProject.jspa?id=10000">Seng438-Group9</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8"
+                id="word_reporter_712020:3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8"
+                href="https://seng438-group9.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A3cfdc2d9-064b-47fe-ba28-086c7bcf3ac8">
+                    Ye Shanzi
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10001-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10001-value" class="value" bgcolor="#ffffff" width="80%">      0|i00007:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h2><a name="ExpectedBehavior%3A"></a>Expected Behavior:</h2>
+
+<ul>
+	<li>The system displays the menu of withdrawal amounts.</li>
+	<li>The user selects an amount that the ATM currently has available, ensuring it is not greater than their account balance.</li>
+	<li>The system dispenses the selected amount of cash.</li>
+	<li>The system prints a receipt showing the withdrawn amount and the correct updated balance.</li>
+	<li>The system records the transaction correctly in the log, including the message to the bank and the bank's approval.</li>
+</ul>
+
+
+<h2><a name="ActualBehavior%3A"></a>Actual Behavior:</h2>
+
+<ul>
+	<li>The user chooses to withdraw $20 from the menu.</li>
+	<li>However, the ATM system dispenses $40 instead of the selected $20.</li>
+	<li>The balance is updated to $60, reflecting a deduction of $40 (initial balance was $100).</li>
+	<li>The system records the transaction correctly in the log, despite dispensing the incorrect amount.</li>
+</ul>
+
+
+<h2><a name="InitialState%3A"></a>Initial State:</h2>
+
+<ul>
+	<li>Account balance: $100</li>
+	<li>User selects a withdrawal amount from the ATM menu.</li>
+</ul>
+
+
+<h2><a name="Result%3A"></a>Result:</h2>
+
+<p>Fail - The ATM dispensed an incorrect amount of cash, double the amount selected by the user</p>
+
+<h2><a name="PostRegressionTest%3A"></a>Post Regression Test:</h2>
+
+<p><b>Status:</b> PASSED</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generated at Fri Feb 02 17:04:45 UTC 2024 by Ye Shanzi using Jira 1001.0.0-SNAPSHOT#100245-sha1:157e8201994ee15df4ad7fc2b41795e7c88fbc36.
+
+</body>
+</html>
