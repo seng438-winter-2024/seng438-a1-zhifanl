@@ -196,6 +196,32 @@ Our main approach to this exploratory testing phase consists of breaking this pr
   - Show Receipt
   - Prompt Transaction
 
+ ## Depositing
+### Checking
+- Amount of Cash (20-200)
+  - Envelope
+  - Show Receipt
+  - Prompt Transaction
+
+### Savings
+- Amount of Cash (20-200)
+  - Envelope
+  - Show Receipt
+  - Prompt Transaction
+
+### Money Market
+- Amount of Cash (20-200)
+  - Envelope
+  - Show Receipt
+  - Prompt Transaction
+
+## Login
+- Inserting Card
+  - Enter card number
+    - Pin
+    - Prompt transaction type
+
+
 
 
 # Comparison of exploratory and manual functional testing
