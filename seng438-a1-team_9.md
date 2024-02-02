@@ -243,19 +243,10 @@ Status: Pass
 Regression Testing: Pass
 
 
-Test#2: (Card 2)
-Show balance inquiry for checking account
-Expected Result: $100
-Actual: $100
-Status: Pass
-Regression Testing: Pass
-Test#3: (Card 2)
-Transfer 20$ from Checking to Money Market
-Expected Result: $5020 in Money Mart
-Actual: $5019.5
-Status: Fail
-Regression Result: $5020
-Regression Testing: Pass
+Test\#2: (Card 2) Show balance inquiry for checking account Expected Result: \$100 Actual: \$100 Status: Pass Regression Testing: Pass
+
+Test\#3: (Card 2) Transfer \$20 from Checking to Money Market Expected Result: \$5020 in Money Market Actual: \$5019.5 Status: Fail Regression Result: \$5020 Regression Testing: Pass
+
 
 
 Test#4: (Card 2)
