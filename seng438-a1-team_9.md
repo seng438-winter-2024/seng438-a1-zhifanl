@@ -65,8 +65,6 @@ We will begin by testing by using the two accounts provided in the README file.
 
 Defects:
 
-Zhifan:
-
 1.No error message when entering the wrong card number, if a customer enters the wrong card number accidentally, then the PIN will keep getting wrong, which results in the customer’s card getting locked.
 2.previous log & output not getting cleared when shutdown or restarting the ATM machine
 3.when transferring money >0.5 between linked accounts, 0,5$ is taken from the bank
@@ -177,58 +175,58 @@ Regression Stat   : Fail
 
 Our main approach to this exploratory testing phase consists of breaking this program down into its innate functionalities. These include:
 
-## Withdrawing
-### Checking
+### Withdrawing
+#### Checking
 - Amount of Cash (20-200)
   - Show Selected Amount
   - Show Receipt
   - Prompt Transaction
 
-### Savings (No saving Account for Card 2)
+#### Savings (No saving Account for Card 2)
 - Amount of Cash (20-200)
   - Show Selected Amount
   - Show Receipt
   - Prompt Transaction
 
-### Money Market (No Money market for card 1)
+#### Money Market (No Money market for card 1)
 - Amount of Cash (20-200)
   - Show Selected Amount
   - Show Receipt
   - Prompt Transaction
 
- ## Depositing
-### Checking
+ ### Depositing
+#### Checking
 - Amount of Cash (20-200)
   - Envelope
   - Show Receipt
   - Prompt Transaction
 
-### Savings
+#### Savings
 - Amount of Cash (20-200)
   - Envelope
   - Show Receipt
   - Prompt Transaction
 
-### Money Market
+#### Money Market
 - Amount of Cash (20-200)
   - Envelope
   - Show Receipt
   - Prompt Transaction
 
-## Login
+### Login
 - Inserting Card
   - Enter card number
     - Pin
     - Prompt transaction type
 
-## Transfer
+### Transfer
 - Select Account from
   - Select Account to
     - Select Amount (any)
     - Show Receipt
     - Prompt Transaction
 
-## Balance
+### Balance
 - Select Account
   - Show Receipt
   - Prompt Transaction
