@@ -4,10 +4,10 @@
 
 | Group: Group Number      |
 |-----------------|
-| Student 1 Zhifan Li 30089428        |   
+| Student 1 Zhifan Li        |   
 | Student 2 Sandip Mishra              |   
-| Student 3 Shanzi Ye  30122179             |   
-| Student 4 Fardin Aryan 3016150                |   
+| Student 3 Shanzi Ye             |   
+| Student 4 Fardin Aryan                |   
 
 
 **Table of Contents**
@@ -30,6 +30,9 @@ divided	1](#_Toc439194681)
 learned	1](#_Toc439194682)
 
 [7 Comments/feedback on the lab and lab document itself	1](#_Toc439194683)
+
+[SENG438 A1 Jira Issues as Excel Sheet](https://github.com/seng438-winter-2024/seng438-a1-zhifanl/blob/main/seng438-a1-jira-issues.csv "View the SENG438 A1 Jira Issues CSV")
+
 
 # Introduction
 
