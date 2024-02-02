@@ -42,7 +42,7 @@ In this laboratory work, we delve into the realm of software testing, focusing o
 
 high-level exploratory test plan:
 
-Testing Pair #1: Zhifan and Shanzi
+# Zhifan & Shanzi: (Testing Pair #1):
 
 For executing the testing plan:
 
