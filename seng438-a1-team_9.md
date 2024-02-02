@@ -221,6 +221,21 @@ Our main approach to this exploratory testing phase consists of breaking this pr
     - Pin
     - Prompt transaction type
 
+## Transfer
+- Select Account from
+  - Select Account to
+    - Select Amount (any)
+    - Show Receipt
+    - Prompt Transaction
+
+## Balance
+- Select Account
+  - Show Receipt
+  - Prompt Transaction
+
+## Take receipt
+
+
 
 
 
