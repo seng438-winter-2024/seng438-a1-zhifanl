@@ -2,7 +2,7 @@
 
 **Lab. Report \#1 – Introduction to Testing and Defect Tracking**
 
-| Group: Group Number      |
+| Group: 9      |
 |-----------------|
 | Student 1 Zhifan Li        |   
 | Student 2 Sandip Mishra              |   
